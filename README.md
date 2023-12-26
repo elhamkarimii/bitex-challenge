@@ -54,3 +54,5 @@ Once you have completed the installation steps, you can start the development se
 
 This command will start the development server and open the application in your default web browser.
 You can access it at http://localhost:5173. 🚀
+
+You can check the live demo at https://bitex-challenge.vercel.app/
