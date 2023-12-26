@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# ERC20 Token Interaction Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React-based web application built with TypeScript and Vite. The application features a two-step form that interacts with an ERC20 token deployed at the specified address on the Goerli Test Network.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Introduction
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The purpose of this project is to provide a straightforward interface for users to interact with an ERC20 token. Users can perform actions related to the specified token deployed on the Goerli Test Network through a two-step form.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Features
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Two-Step Form:** The application presents a user-friendly two-step form.
+- **ERC20 Token Interaction:** Users can interact with the ERC20 token.
+- **Goerli Test Network:** The application specifically targets the Goerli Test Network for interacting with the token.
+
+
+## Installation
+
+To get started with the DAM application, follow these steps:
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/elhamkarimii/bitex-challenge
+   ```
+
+2. Navigate to the project directory:
+
+   ```shell
+   cd bitex-challenge
+   ```
+
+3. Install the dependencies:
+
+   ```shell
+   npm install
+   `````` 
+
+
+## Usage
+
+Once you have completed the installation steps, you can start the development server and run the DAM application locally:
+
+   ```shell
+   npm run dev
+   `````` 
+
+This command will start the development server and open the application in your default web browser.
+You can access it at http://localhost:5173. 🚀
