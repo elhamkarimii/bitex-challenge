@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     path: '/',
     children: [
       {
-        path: 'mint',
+        path: '',
         element: <MintPage />,
       },
       {
